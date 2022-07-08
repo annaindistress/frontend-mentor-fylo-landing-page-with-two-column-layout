@@ -1,0 +1,33 @@
+.navigation
+  &__list
+    display flex
+    flex-wrap nowrap
+    justify-content end
+    align-items center
+    margin 0
+    padding 0
+    list-style none
+
+  &__item
+    margin-left 25px
+    font-family font-fancy
+    font-size 12px
+    line-height 1.2
+    text-transform capitalize
+
+    &:first-of-type
+      margin-left 0
+
+  &__link
+    color inherit
+    text-decoration none
+
+    &:hover,
+    &:focus
+      color color-accent-pale
+
+@media (min-width: 1200px)
+  .navigation
+    &__item
+      margin-left 58px
+      font-size 16px
