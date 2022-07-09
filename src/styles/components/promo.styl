@@ -1,0 +1,43 @@
+.promo
+  margin-bottom 90px
+  padding 0 32px
+
+  &__container
+    max-width 1280px
+    margin 0 auto
+    padding-top 265px
+    background-image url('../images/illustration-1.svg')
+    background-repeat no-repeat
+    background-position top center
+    background-size 302px auto
+
+  &__lead
+    margin 0 0 24px
+    font-family font-fancy
+    font-weight 700
+    font-size 24px
+
+  &__text
+    margin 0 0 32px
+
+@media (min-width: 1200px)
+  .promo
+    margin-bottom 164px
+    padding-left 80px
+    padding-right 80px
+
+    &__container
+      padding-top 85px
+      padding-bottom 105px
+      background-position-x right
+      background-size calc(100% - 640px)
+
+    &__lead
+      max-width 630px
+      margin-bottom 16px
+      font-size 40px
+
+    &__text
+      max-width 550px
+      font-size 17px
+      line-height 1.41

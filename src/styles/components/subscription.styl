@@ -1,0 +1,49 @@
+.subscription
+  display grid
+  gap 16px
+  max-width 320px
+  margin 0 auto
+  font-family font-fancy
+
+  &__input
+    padding 13px 21px 12px
+    font-family inherit
+    font-size 12px
+    line-height 1.2
+    letter-spacing .4px
+    color inherit
+    border .63px solid color-primary-dark
+    border-radius 3.125px
+    box-shadow 2px 3px 6px rgba(0, 0, 0, .1593)
+
+    &:placeholder
+      color color-basic-grey
+
+  &__button
+    padding 12px
+    font-family inherit
+    font-weight 700
+    font-size 14px
+    line-height 1.2
+    text-transform capitalize
+    color color-basic-white
+    background-color color-accent-bright
+    border none
+    border-radius 3.125px
+    box-shadow 2px 3px 6px rgba(0, 0, 0, .1593)
+    cursor pointer
+
+    &:hover,
+    &:focus
+      background-color color-accent-pale
+
+@media (min-width: 1200px)
+  .subscription
+    grid-template-columns 320px 1fr
+    max-width 536px
+    margin-left 0
+
+    &__input
+      font-size 14px
+      line-height 1.4
+      letter-spacing .47px
