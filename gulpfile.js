@@ -20,6 +20,7 @@ gulp.task('copy', function () {
   .src([
     'src/*.html',
     'src/fonts/**/*',
+    'src/images/*.jpg',
     'src/images/*.png',
     'src/images/*.svg'
   ], {
@@ -54,7 +55,6 @@ gulp.task('sprite', function () {
             { removeEmptyAttrs: true },
             { removeEmptyText: true },
             { collapseGroups: true },
-            { removeAttrs: { attrs: '(fill|stroke|style)' } }
           ]
         }
       }]
