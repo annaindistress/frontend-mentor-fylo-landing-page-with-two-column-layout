@@ -1,0 +1,49 @@
+.access
+  padding 54px 48px 70px
+  text-align center
+  color color-basic-white
+  background-color color-primary-pale
+
+  &__container
+    max-width 1280px
+    margin 0 auto
+
+  &__title
+    margin 0 0 16px
+    font-family font-fancy
+    font-weight 700
+    font-size 18px
+    line-height 1.33
+
+  &__text
+    margin 0 0 24px
+
+  &__subscription
+    margin-left auto
+    margin-right auto
+
+@media (min-width: 1200px)
+  .access
+    padding 100px 80px 85px
+    text-align left
+
+    &__container
+      display grid
+      grid-template-columns 1fr 480px
+      gap 16px 260px
+      align-items center
+
+    &__title
+      margin-bottom 0
+      font-size 32px
+      line-height 1.5
+
+    &__text
+      margin-bottom 0
+      font-size 16px
+      letter-spacing .5px
+
+    &__subscription
+      grid-row 1 / 3
+      grid-column 2 / 3
+      margin-left 0
