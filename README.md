@@ -23,11 +23,24 @@ Users should be able to:
 
 ### Screenshot
 
+![](./screenshot.png)
+
 ### Links
+
+- [Solution URL](https://github.com/annaindistress/frontend-mentor-fylo-landing-page-with-two-column-layout)
+- [Live Site URL](https://annaindistress.github.io/frontend-mentor-fylo-landing-page-with-two-column-layout/)
 
 ## My process
 
 ### Built with
+
+- Semantic HTML5 markup
+- CSS Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Gulp
+- Stylus
+- SVG Sprite
 
 ## Author
 
