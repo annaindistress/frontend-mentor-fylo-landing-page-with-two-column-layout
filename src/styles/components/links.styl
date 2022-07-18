@@ -1,0 +1,50 @@
+.links
+  display grid
+  gap 16px
+  margin 0
+  padding 0
+  list-style-type none
+
+  &__item
+    font-size 16px
+    line-height 1.2
+
+    &:nth-of-type(4)
+      margin-bottom 16px
+
+  &__url
+    text-decoration none
+    color color-basic-white
+
+    &:hover,
+    &:focus
+      color color-accent-pale
+
+@media (min-width: 1200px)
+  .links
+    grid-template-columns: repeat(2, 1fr)
+    gap 16px 200px
+
+    &__item
+
+      &:nth-of-type(1)
+        order 1
+
+      &:nth-of-type(2)
+        order 3
+
+      &:nth-of-type(3)
+        order 5
+
+      &:nth-of-type(4)
+        order 7
+        margin-bottom 0
+
+      &:nth-of-type(5)
+        order 2
+
+      &:nth-of-type(6)
+        order 4
+
+      &:nth-of-type(7)
+        order 6
